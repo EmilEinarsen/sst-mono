@@ -13,7 +13,10 @@ const config = {
     USER_POOL_ID: import.meta.env.VITE_USER_POOL_ID,
     APP_CLIENT_ID: import.meta.env.VITE_USER_POOL_CLIENT_ID,
     IDENTITY_POOL_ID: import.meta.env.VITE_IDENTITY_POOL_ID,
-  },
+  }, // Frontend config
+  MAX_ATTACHMENT_SIZE: 5000000,
+  STRIPE_KEY:
+    "pk_test_51OHmfZBbQIiuJhoHCYQ2XDyjnapd0t9WXyCEgRvGhNfwkGA1yCsmf6iL9Fg3Rh7QaEq59lqu9K8Wflm1zHOXSlZH000AtbJ3W7",
 };
 
 export default config;
